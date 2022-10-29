@@ -4,7 +4,7 @@ public class BinarySearch {
         int [] arr = {1,2,3,4};
         int start = 0;
         int end = arr.length-1;
-        int mid = (end+start)/2;
+        int mid = (start/2)+(end/2);
         while (start<=end){
             if (arr[mid] == find){
                 System.out.println(mid);
